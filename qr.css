@@ -1,0 +1,54 @@
+.qr{
+    color: blue;
+    background-color: brown;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.genbuuton{
+    color: aquamarine;
+    background-color: black;
+    padding: 10px;
+    display: inline-block !important;
+    /* flex-direction: ro !important; */
+}
+.genbuuton1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(34, 255, 0);
+    padding: 10px;
+    display: inline-block !important;
+    /* cursor: not-allowed; */
+    
+}
+.genbuuton1:disabled{
+    color: aliceblue;
+    cursor: not-allowed;
+}
+label{
+    color: rgb(0, 55, 255);
+    width: 40%;
+    align-items: start !important;
+    
+}
+input{
+    padding: 4px ;
+    margin-top: 7px;
+    border: 2px solid rgb(0, 19, 124);
+    margin-bottom: 4px;
+    width: 40%;
+}
+.qrimg{
+    margin-bottom: 10px ;
+    box-shadow:24, 21, 21px  rgb(56, 49, 40,0.1);
+    padding: 2px ;
+}
+h1{
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
